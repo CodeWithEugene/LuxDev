@@ -101,8 +101,6 @@ Pyforest is a Python library designed to simplify data science workflows. It aut
   - `tqdm`  
 
 ### Installation Command  
-To install all the libraries, run the following command:  
-```bash
 pip install pandas numpy matplotlib seaborn plotly scikit-learn tensorflow pytorch statsmodels scipy sqlalchemy pyodbc pyforest tqdm
 
 
