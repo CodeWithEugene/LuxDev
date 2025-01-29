@@ -37,7 +37,7 @@ A bar chart is a graphical representation of categorical data with rectangular b
 The length of each bar is proportional to the value it represents. Bar charts are used to compare different categories.
 
 #### Example
-![alt text](barchart.png)
+![alt text](media/barchart.png)
 
 ### Count Plot
 
@@ -45,7 +45,7 @@ A count plot is a type of bar chart that displays the count of observations in e
 It is commonly used in data analysis to show the frequency distribution of categorical variables.
 
 #### Example
-![alt text](countplot.png)
+![alt text](media/countplot.png)
 
 ### Histogram
 
@@ -54,7 +54,7 @@ It groups data into bins and displays the frequency of data points in each bin.
 Histograms are used to understand the distribution and spread of continuous data.
 
 #### Example
-![alt text](histogram.png)
+![alt text](media/histogram.png)
 
 ### Summary
 
