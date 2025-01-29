@@ -18,7 +18,7 @@ df = pd.DataFrame({'x': x, 'y': y})
 fig = px.line(df, x='x', y='y', title='Title of the plot', labels={'x': 'This is x-axis', 'y': 'This is y-axis'}) # Create a line plot
 fig.show() # Show the plot
 ```
-![alt text](lineplot.png)
+![alt text](media/lineplot.png)
 
 ## Pie Chart
 ```python
@@ -32,7 +32,7 @@ df = pd.DataFrame({'gender': gender, 'counts': counts}) # Create a DataFrame
 fig = px.pie(df, names='gender', values='counts', title='Gender Distribution') # Create a pie chart
 fig.show() # Show the plot
 ```
-![alt text](piechart.png)
+![alt text](media/piechart.png)
 
 ## Count Plot
 ```python
@@ -44,7 +44,7 @@ df = pd.DataFrame({'gender': gender, 'counts': counts})
 fig = px.bar(df, x='counts', color='gender', title='Title of the plot', labels={'counts': 'This is x-axis', 'gender': 'This is y-axis'}) # Create a count plot
 fig.show() # Show the plot
 ```
-![alt text](countplot1.png)
+![alt text](media/countplot1.png)
 
 ## Histogram
 ```python
@@ -60,7 +60,7 @@ fig = px.histogram(df, x='y', nbins=5, title='Title of the plot', labels={'y': '
 fig.update_layout(xaxis_title='This is x-axis', yaxis_title='This is y-axis') # Update axis labels
 fig.show() # Show the plot
 ```
-![alt text](histogram1.png)
+![alt text](media/histogram1.png)
 
 ## Scatter Plot
 ```python
@@ -75,7 +75,7 @@ df = pd.DataFrame({'x': x, 'y': y})
 fig = px.scatter(df, x='x', y='y', title='Title of the plot', labels={'x': 'This is x-axis', 'y': 'This is y-axis'}) # Create a scatter plot
 fig.show() # Show the plot
 ```
-![alt text](scatterplot.png)
+![alt text](media/scatterplot.png)
 
 ## Bar Graph
 ```python
@@ -90,7 +90,7 @@ df = pd.DataFrame({'x': x, 'y': y})
 fig = px.bar(df, x='x', y='y', title='Title of the plot', labels={'x': 'This is x-axis', 'y': 'This is y-axis'}, color_discrete_sequence=['red']) # Create a bar graph
 fig.show() # Show the plot
 ```
-![alt text](bargraph.png)
+![alt text](media/bargraph.png)
 
 ## Box Plot
 ```python
@@ -106,7 +106,7 @@ fig = px.box(df, y='y', title='Title of the plot', labels={'y': 'This is y-axis'
 fig.update_layout(xaxis_title='This is x-axis', yaxis_title='This is y-axis') # Update axis labels
 fig.show() # Show the plot
 ```
-![alt text](boxplot.png)
+![alt text](media/boxplot.png)
 
 ### Learn the different customization for each visualization
 
