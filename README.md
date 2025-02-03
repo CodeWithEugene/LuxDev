@@ -1,2 +1,2 @@
 # LuxDev
-All My code from the Data Science, ML, and AI Course
+All My code and assignments from the Data Science, ML, and AI Course at LuxDev
