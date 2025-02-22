@@ -1,5 +1,5 @@
 # Question 1. Difference Between Loading (JSON) and Reading (CSV)
----
+
 ## Loading (JSON)
 
 JSON (JavaScript Object Notation) is a hierarchical data format that supports nested structures like dictionaries and lists. 
@@ -11,10 +11,10 @@ This allows you to access the data using keys or indices.
 
 CSV (Comma-Separated Values) is a format where data is organized into rows and columns which are separated by commas. 
 When you read a CSV file using `csv.reader()` or `pandas.read_csv()`, it treats the file as a table and allows you to access the data row by row or as a DataFrame.
----
+
 
 # Question 2. Difference Between Writing (CSV) and Dumping (JSON)
----
+
 ## Writing (CSV)
 
 Writing to a CSV file means to format data into a tabular structure with rows and columns. 
@@ -47,10 +47,9 @@ data = {"name": "Alice", "age": 25}
 with open('output.json', 'w') as file:  
     json.dump(data, file, indent=4)  
 ```
----
+
 # Question 3. Loading a Personal Image in Python
 
----
 
 To load and display an image in Python, you can use libraries like Pillow (PIL) or OpenCV. Below are examples for both:
 
@@ -82,10 +81,8 @@ plt.imshow(img)
 plt.axis("off")  # Hide axes  
 plt.show()
 ```
---- 
 
 # Question 4. Write on hypothesis testing, why we use it, and when we use it
 
----
+
 Kindly access my article [here](https://medium.com/@eugenegabriel.ke/hypothesis-testing-why-we-use-it-and-when-we-use-it-e2877c2d486c)
----
