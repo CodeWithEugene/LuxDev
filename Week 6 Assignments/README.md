@@ -1,13 +1,13 @@
 # Question 1. Difference Between Loading (JSON) and Reading (CSV)
 
-## Loading (JSON)
+### Loading (JSON)
 
 JSON (JavaScript Object Notation) is a hierarchical data format that supports nested structures like dictionaries and lists. 
 When you load a JSON file in Python using `json.load()`, it reads the file and converts the JSON data into a Python object eg. a dictionary or a list. 
 This allows you to access the data using keys or indices.
 
 
-## Reading (CSV)
+### Reading (CSV)
 
 CSV (Comma-Separated Values) is a format where data is organized into rows and columns which are separated by commas. 
 When you read a CSV file using `csv.reader()` or `pandas.read_csv()`, it treats the file as a table and allows you to access the data row by row or as a DataFrame.
@@ -15,7 +15,7 @@ When you read a CSV file using `csv.reader()` or `pandas.read_csv()`, it treats 
 
 # Question 2. Difference Between Writing (CSV) and Dumping (JSON)
 
-## Writing (CSV)
+### Writing (CSV)
 
 Writing to a CSV file means to format data into a tabular structure with rows and columns. 
 I tried to use `csv.writer()` to write lists or tuples as rows in the CSV file and it worked.
@@ -49,7 +49,6 @@ with open('output.json', 'w') as file:
 ```
 
 # Question 3. Loading a Personal Image in Python
-
 
 To load and display an image in Python, you can use libraries like Pillow (PIL) or OpenCV. Below are examples for both:
 
