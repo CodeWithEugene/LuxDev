@@ -82,5 +82,9 @@ plt.show()
 
 # Question 4. Write on hypothesis testing, why we use it, and when we use it
 
-
 Kindly access my article [here](https://medium.com/@eugenegabriel.ke/hypothesis-testing-why-we-use-it-and-when-we-use-it-e2877c2d486c)
+
+### Key Points
+1. Hypothesis testing is a statistical method to make decisions about a population using sample data.
+2. We use it to see if a claim or theory is likely true, helping avoid guesses based on chance.
+3. It’s used when comparing groups, testing treatments, or finding relationships in data, like in science, business, or medicine.
