@@ -63,10 +63,9 @@ with open("eugene.jpg", "rb") as src:
 from PIL import Image
 from IPython.display import display
 
-# Open and display the image
 with open("william f65 pic.jpg", "rb") as src:
     data = Image.open(src)
-    display(data) # Works in Colab
+    display(data) 
 ```
 
 ### Displaying in Jupyter Notebook (using matplotlib):
@@ -77,7 +76,7 @@ import matplotlib.image as mpimg
   
 img = mpimg.imread("my_photo.jpg")  
 plt.imshow(img)  
-plt.axis("off")  # Hide axes  
+plt.axis("off")  
 plt.show()
 ```
 
