@@ -1,19 +1,19 @@
 # The Question
 ![Question](question.png)
 
-## My answer
+# My answer
 
-### 1. Creating the OnlineRetail Database
+## 1. Creating the OnlineRetail Database
 ```sql
 CREATE DATABASE OnlineRetail;
 ```
 
-### 2. Selecting the database
+## 2. Selecting the database
 ```sql
 USE OnlineRetail;
 ```
 
-### 3. Creating the Orders table
+## 3. Creating the Orders table
 ```sql
 CREATE TABLE Orders (
     OrderID INT PRIMARY KEY,
@@ -22,7 +22,7 @@ CREATE TABLE Orders (
     TotalAmount DECIMAL(10,2)
 );
 ```
-### 4. Inserting the data into the table
+## 4. Inserting the data into the table
 ```sql
 INSERT INTO Orders (OrderID, CustomerID, OrderDate, TotalAmount) VALUES
 (1, 101, '2023-01-05', 200.00),
@@ -33,7 +33,7 @@ INSERT INTO Orders (OrderID, CustomerID, OrderDate, TotalAmount) VALUES
 (6, 101, '2023-01-25', 250.00);
 ```
 
-### 5. Solving the task
+## 5. Solving the task
 ```sql
 SELECT CustomerID, 
     SUM(TotalAmount) AS TotalSpent, 
@@ -44,5 +44,5 @@ HAVING COUNT(OrderID) > 1
 ORDER BY TotalSpent DESC;
 ```
 
-### 6. code and Output
+## 6. code and Output
 ![Code_&_Output](code_&_output.png)
