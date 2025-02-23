@@ -45,4 +45,4 @@ ORDER BY TotalSpent DESC;
 ```
 
 ### 6. code and Output
-![Code_&_Output](code_&_output.png.png)
+![Code_&_Output](code_&_output.png)
