@@ -1,5 +1,5 @@
 # The Question
-![Question](CodeWithEugene/LuxDev/Week 5/image.png)
+![Question](question.png)
 
 ## My answer
 
@@ -45,4 +45,4 @@ ORDER BY TotalSpent DESC;
 ```
 
 ### 6. code and Output
-![Code_&_Output](CodeWithEugene/LuxDev/Week 5/image copy.png)
+![Code_&_Output](code_&_output.png.png)
