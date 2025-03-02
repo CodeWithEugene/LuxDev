@@ -14,10 +14,10 @@ We use a one-sample z-test for the mean. The test statistic is calculated as:
 $$ z = \frac{\bar{x} - \mu}{\sigma / \sqrt{n}} $$
 
 Where:
-- \( \bar{x} \) is the sample mean  
-- \( \mu \) is the population mean (5 years)  
-- \( \sigma \) is the population standard deviation  
-- \( n \) is the sample size  
+- `x̄` is the sample mean  
+- `μ` is the population mean (5 years)  
+- `σ` is the population standard deviation  
+- `n` is the sample size  
 
 If the calculated z-value is greater than the critical value from the z-table, we reject the null hypothesis.
 
